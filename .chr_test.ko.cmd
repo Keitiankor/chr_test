@@ -1,0 +1,1 @@
+cmd_/home/pi/ker/chr_test/chr_test.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/ker/chr_test/chr_test.ko /home/pi/ker/chr_test/chr_test.o /home/pi/ker/chr_test/chr_test.mod.o ;  true
